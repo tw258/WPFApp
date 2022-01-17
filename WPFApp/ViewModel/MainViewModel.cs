@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using WPFApp.Utlis;
 
 namespace WPFApp.ViewModel
@@ -48,7 +49,8 @@ namespace WPFApp.ViewModel
 
         public void Test(object parameter)
         {
-            TestProperty = "TEST OK";
+            MessageBox.Show($"Eingegebener Text: {TestProperty}");
+            TestProperty = "";
         }
 
         public bool CanExecuteTest(object parameter)

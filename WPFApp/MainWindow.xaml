@@ -6,12 +6,12 @@
         xmlns:local="clr-namespace:WPFApp"
         xmlns:ViewModel="clr-namespace:WPFApp.ViewModel" xmlns:Utlis="clr-namespace:WPFApp.Utlis" x:Class="WPFApp.MainWindow"
         mc:Ignorable="d"
-        Title="Title for Application" 
+        Title="Text Anzeige" 
         Height="400"
         MinHeight="500"
         Width="400" 
         MinWidth="300"
-        Background="LightYellow"
+        Background="Honeydew"
         >
 
     <Window.Resources>
@@ -31,12 +31,25 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
 
-        <Button Content="Button" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="75" Grid.Row="0" Grid.Column="1" Command="{Binding TestCommand}"/>
-        <TextBox HorizontalAlignment="Center" VerticalAlignment="Center" Height="22"  TextWrapping="Wrap" Text="{Binding TestProperty, UpdateSourceTrigger=PropertyChanged}" Width="120" Grid.Row="0" Grid.Column="0"/>
+        <TextBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"  TextWrapping="Wrap" Text="{Binding TestProperty, UpdateSourceTrigger=PropertyChanged}"  Grid.Row="0" Grid.Column="0"/>
+        <Button Content="Text anzeigen"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"  Grid.Row="0" Grid.Column="1" Command="{Binding TestCommand}"/>
+
+        <Button Content="Übernehmen"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"  Grid.Row="5" Grid.Column="0" Command="{Binding TestCommand}"/>
+        <Button Content="Abbrechen"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"  Grid.Row="5" Grid.Column="1" Command="{Binding TestCommand}"/>
+        <Button Content="Einfügen"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"  Grid.Row="6" Grid.Column="0" Command="{Binding TestCommand}"/>
+        <Button Content="Aktualisieren"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"  Grid.Row="6" Grid.Column="1" Command="{Binding TestCommand}"/>
 
 
 

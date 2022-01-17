@@ -1,0 +1,15 @@
+C:\Users\uidk7309\Source\Repos\WPFApp\WPFApp\bin\Release\EVAPROD Datenpflegetool Backend.exe.config
+C:\Users\uidk7309\Source\Repos\WPFApp\WPFApp\bin\Release\EVAPROD Datenpflegetool Backend.exe
+C:\Users\uidk7309\Source\Repos\WPFApp\WPFApp\bin\Release\EVAPROD Datenpflegetool Backend.pdb
+C:\Users\uidk7309\Source\Repos\WPFApp\WPFApp\obj\Release\MainWindow.g.cs
+C:\Users\uidk7309\Source\Repos\WPFApp\WPFApp\obj\Release\App.g.cs
+C:\Users\uidk7309\Source\Repos\WPFApp\WPFApp\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\uidk7309\Source\Repos\WPFApp\WPFApp\obj\Release\EVAPROD Datenpflegetool Backend_MarkupCompile.cache
+C:\Users\uidk7309\Source\Repos\WPFApp\WPFApp\obj\Release\EVAPROD Datenpflegetool Backend_MarkupCompile.lref
+C:\Users\uidk7309\Source\Repos\WPFApp\WPFApp\obj\Release\MainWindow.baml
+C:\Users\uidk7309\Source\Repos\WPFApp\WPFApp\obj\Release\EVAPROD Datenpflegetool Backend.g.resources
+C:\Users\uidk7309\Source\Repos\WPFApp\WPFApp\obj\Release\WPFApp.Properties.Resources.resources
+C:\Users\uidk7309\Source\Repos\WPFApp\WPFApp\obj\Release\WPFApp.csproj.GenerateResource.cache
+C:\Users\uidk7309\Source\Repos\WPFApp\WPFApp\obj\Release\WPFApp.csproj.CoreCompileInputs.cache
+C:\Users\uidk7309\Source\Repos\WPFApp\WPFApp\obj\Release\EVAPROD Datenpflegetool Backend.exe
+C:\Users\uidk7309\Source\Repos\WPFApp\WPFApp\obj\Release\EVAPROD Datenpflegetool Backend.pdb
